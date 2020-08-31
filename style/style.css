@@ -1,0 +1,119 @@
+body {
+    background: #ffffff;
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+#footer {
+    height: 100px;
+    background: #575988;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 70px;
+}
+
+#headText {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#title {
+    font-size: xx-large;
+    font-weight: 500;
+    color: #575988;
+}
+
+hr {
+    border: 1px solid #575988;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#cusContainer {
+    padding: 30px 0px 0px 0px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+form {
+    width: 70%;
+    margin: 50px 0px 10px 200px;
+}
+
+label {
+    font-size: x-large;
+}
+
+input {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #575988;
+    background: white;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+
+.submit {
+    padding: 10px;
+    border: none;
+    background: #FF7590;
+    color: white;
+}
+
+#text {
+    font-size: large;
+    font-style: italic;
+}
+
+a,
+a:hover {
+    font-size: large;
+    color: #FF7590;
+    text-decoration: none;
+}
+
+.homeContainer {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.homeText,
+.sText {
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: x-large;
+    color: #575988;
+}
+
+.sText {
+    margin-top: 10px;
+}
+
+#logout {
+    font-size: 100px;
+}
+
+#error, #correct {
+    font-size: x-large;
+    text-align: center;
+    font-weight: 600;
+    color: #FF7590;
+}
+
+#correct{
+    color: rgb(79, 119, 18);
+}
